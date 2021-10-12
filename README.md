@@ -1,3 +1,7 @@
+
+
+### Improvement of UiOslo_Norway's software tool by
+
 ![Logo](https://github.com/iGEMOslo/iGEM2020_UiOslo_Norway/blob/master/Logo_with_title.png)
 # iGEM2020_UiOslo_Norway (sal.coli)
 Fish school model in julia where you can export data to a julia script for machine learning and to blender for visualization. The purpose of our project is to investigate if it is feasable to detect disease in individuals by using measures on collective behaviour. We have therefor implemented a simple discrete stochastic schooling model where we can change some parameters to create "sick" fish and analyse different measures with a nerual net. Our work is now contanied in three parts:
@@ -8,11 +12,11 @@ Fish school model in julia where you can export data to a julia script for machi
 
 3. And finally we have visualization part consisting of blenderScript.py which imports trajectories from the schooling model outputed in dataforVisualization.CSV.
 
-The model is easy to use by non programers as the parameters can be simply set in a txt file and no programming is necisarry. We hope that someone will come along and extend this project as it has the capability to be a usefull tool for scientist and those working with the diagnoistics of fish diseases. We have designed the code as best as possible to allow for introducing different and realistic behaviours. 
+The model is easy to use by non programmers as the parameters can be configured in a textt (.txt) file and no programming is necessary. We hope that someone will come along and extend this project as it has the capability to be a useful tool for scientist and those working with the diagnoistics of fish diseases. We have designed the code as best as possible to allow for introducing different and realistic behaviours. 
 
 # Installation and setup
 
-To use our repository to the fullest you will need to install Julia, blender and ffmpeg. 
+To use our repository to the you will need to install Julia, blender and ffmpeg. 
 
 - Julia 
 
@@ -29,7 +33,7 @@ We have tested this this project on versions 2.83 & 2.9.
 
 - FFMPEG
 
-FFMPEG can be found here https://ffmpeg.org/download.html. You can either install it or simply put the .exe in the same folder as the schooling model. On Ubuntu installation instructions can be found here https://linuxize.com/post/how-to-install-ffmpeg-on-ubuntu-18-04/ and it is also found in Ubuntu Software
+FFMPEG can be found here https://ffmpeg.org/download.html. On Windows you can either install it or put the .exe in the same folder as the schooling model. On Ubuntu installation instructions can be found here https://linuxize.com/post/how-to-install-ffmpeg-on-ubuntu-18-04/ and it is also found in Ubuntu Software
 
 
 # Schooling model 
