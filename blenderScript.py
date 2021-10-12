@@ -69,6 +69,9 @@ then the next tree entries in that line are [x,y,z] positions
 
 """
 
+### OPERATING SYSTEM DEPENDENT PARAMETERS ###
+
+
 ########    LINUX  START         #######
 # Comment out lines csv_loc & obj_loc below if you are using this script in a Windows environment
 
@@ -97,6 +100,10 @@ obj_loc = 'C:/Users/<USERNAME>/Documents/GitHub/iGEM2020_UiOslo_Norway/SALMON.ob
 
 
 ########    WINDOWS END       #######
+
+
+### OPERATING SYSTEM DEPENDENT PARAMETERS  END ###
+
 
 # The objects that are important or copied will only be found if their name 
 # contains this name space, this is not case sensitive
