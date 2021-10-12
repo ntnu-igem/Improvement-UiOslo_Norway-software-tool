@@ -1,6 +1,9 @@
 
 
-### Improvement of UiOslo_Norway's software tool by
+### Improvement of UiOslo_Norway's software tool
+Changes are: 
+1. Improved readability of necessary text and comments across all files.  
+2. Simplified instruction and updated callbacks to Blender functions via the Blender Python package (bpy)
 
 ![Logo](https://github.com/iGEMOslo/iGEM2020_UiOslo_Norway/blob/master/Logo_with_title.png)
 # iGEM2020_UiOslo_Norway (sal.coli)
