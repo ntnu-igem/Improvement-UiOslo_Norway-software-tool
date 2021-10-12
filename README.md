@@ -1,6 +1,6 @@
 
 
-### Improvement of UiOslo_Norway's software tool
+### Improvement of UiOslo_Norway 2020 software tool by NTNU-Trondheim 2021
 Changes are: 
 1. Improved readability of necessary text and comments across all files.  
 2. Simplified instruction and updated callbacks to Blender functions via the Blender Python package (bpy)
