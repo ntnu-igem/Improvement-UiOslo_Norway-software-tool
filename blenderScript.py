@@ -20,6 +20,16 @@ import csv
 import bpy
 
 
+######### NTNU-Trondheim Improvement:Clears scene of default cube ##########
+
+bpy.data.objects['Cube'].select_set(True) 
+
+bpy.ops.object.delete()
+
+bpy.ops.object.select_all(action='DESELECT')
+
+######### NTNU-Trondheim Improvement ##########
+
 ### OS independent blenderScript Parameters ###
 """
 By default, blenderScript.py imports 10 objects from "dataForVisualization.CSV" to make it easier to run on low-powered computers.
@@ -40,9 +50,9 @@ dim = 3 # Number of dimensions that the objects hould move in
 
 scale = 10 # Divides positions by scale such that fish are closer togheter
 
-importObject = True # Set true if you want to import an .obj file that is suppose to be copied
+importObject = True # Set true if you want to import an .obj file that is supposed to be copied
 
-CopySelected = True  # Set true if you want to copy a object that is selected with the cursor, see
+CopySelected = False  # Set true if you want to copy a object that is selected with the cursor, see
 
 
 """ 
@@ -90,11 +100,18 @@ obj_loc = 'C:/Users/<USERNAME>/Documents/GitHub/iGEM2020_UiOslo_Norway/SALMON.ob
 
 # The objects that are important or copied will only be found if their name 
 # contains this name space, this is not case sensitive
-name_space="salmon"
+name_space = "salmon"
 
+
+######### NTNU-Trondheim Improvement: Automation of object import ##########
+
+#### Import the desired object ###
 imported_object = bpy.ops.import_scene.obj(filepath = obj_loc)
 
+### Select the desired object object ###
 bpy.data.objects['SALMON'].select_set(True) # 2.8+
+
+######### NTNU-Trondheim Improvement ##########
 
 # Imports object 
 if importObject:
