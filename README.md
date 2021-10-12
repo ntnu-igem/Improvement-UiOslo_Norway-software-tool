@@ -4,7 +4,7 @@
 Changes are: 
 1. Improved readability of necessary text and comments across all files.  
 2. Simplified instruction and updated calls to Blender functions via the Blender Python package (bpy)
-3. BlenderScript.py: Removed the need for manual import of SALMON.obj and selection of objects in scene for visualisation.
+3. BlenderScript.py: Removed the need for manual import of SALMON.obj and selection and deletion of default created objects in scene for visualisation.
 
 ![Logo](https://github.com/iGEMOslo/iGEM2020_UiOslo_Norway/blob/master/Logo_with_title.png)
 # iGEM2020_UiOslo_Norway (sal.coli)
