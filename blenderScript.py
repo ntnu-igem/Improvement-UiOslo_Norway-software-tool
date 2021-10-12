@@ -92,6 +92,9 @@ obj_loc = 'C:/Users/<USERNAME>/Documents/GitHub/iGEM2020_UiOslo_Norway/SALMON.ob
 # contains this name space, this is not case sensitive
 name_space="salmon"
 
+imported_object = bpy.ops.import_scene.obj(filepath = obj_loc)
+
+bpy.data.objects['SALMON'].select_set(True) # 2.8+
 
 # Imports object 
 if importObject:

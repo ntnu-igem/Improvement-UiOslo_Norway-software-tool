@@ -4,6 +4,7 @@
 Changes are: 
 1. Improved readability of necessary text and comments across all files.  
 2. Simplified instruction and updated calls to Blender functions via the Blender Python package (bpy)
+3. BlenderScript.py: Removed the need for manual import of SALMON.obj and selection of objects in scene for visualisation.
 
 ![Logo](https://github.com/iGEMOslo/iGEM2020_UiOslo_Norway/blob/master/Logo_with_title.png)
 # iGEM2020_UiOslo_Norway (sal.coli)
@@ -16,6 +17,9 @@ Fish school model in julia where you can export data to a julia script for machi
 3. And finally we have visualization part consisting of blenderScript.py which imports trajectories from the schooling model outputed in dataforVisualization.CSV.
 
 The model is easy to use by non programmers as the parameters can be configured in a textt (.txt) file and no programming is necessary. We hope that someone will come along and extend this project as it has the capability to be a useful tool for scientist and those working with the diagnoistics of fish diseases. We have designed the code as best as possible to allow for introducing different and realistic behaviours. 
+
+# Demonstration anv how-to
+Video How-To : https://2020.igem.org/wiki/images/6/6f/T--UiOslo_Norway--DemonstrationVideoTEXTandLogo.mp4
 
 # Installation and setup
 
